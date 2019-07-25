@@ -34,8 +34,8 @@ try:
 except ImportError:
     from urllib2 import urlopen, URLError, HTTPError
 
-import boto.dynamodb2.layer1
-from boto.dynamodb2.exceptions import ProvisionedThroughputExceededException
+import boto.dynamodb.layer1
+from boto.dynamodb.exceptions import ProvisionedThroughputExceededException
 import botocore
 import boto3
 
